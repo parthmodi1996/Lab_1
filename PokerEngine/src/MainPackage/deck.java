@@ -19,6 +19,7 @@ public class deck extends card {
 			String temp = Deck.get(j);
 			Deck.set(j, Deck.get(index));
 			Deck.set(index, temp);
+			
 		}
 		System.out.print(Deck);
 	}
